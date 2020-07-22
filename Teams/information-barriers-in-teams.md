@@ -1,8 +1,8 @@
 ---
 title: Information barriers in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: chrfox
+ms.author: chrfox
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -26,7 +26,7 @@ Information barriers (IB) are policies that an admin can configure to prevent in
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
 > - Private channels are compliant to information barrier policies that you configure.
-> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview.
+> - New: For Information about barriers support for SharePoint site connected to Teams, click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
@@ -139,10 +139,6 @@ Currently, users experience the following if an information barrier policy block
     
 - **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
 
-    Here's an example of the activity tab view.
-
-    ![Screenshot showing the activity tab](media/ib-before-activity-tab-policy.png)
-
     Here's an example of the activity tab view that is blocked.
 
     ![Screenshot showing the activity tab that is blocked](media/ib-after-activity-tab-policy.png)
@@ -170,6 +166,8 @@ When a team is created, a SharePoint site is provisioned and associated with the
 
 For example: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to segment Advisory. The organization's IB policy blocks communication and collaboration between these two segments.
 When user Sesha creates a team for Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can't access that site even if she has the site link.
+
+Click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) for more details.
 
 ## Required licenses and permissions
 
