@@ -19,4 +19,6 @@ appliesto:
 - Microsoft Teams
 ---
 
-[!INCLUDE [turning-on-and-using-call-quality-dashboard](../turning-on-and-using-call-quality-dashboard.md)]
+test
+
+text sample
